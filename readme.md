@@ -16,6 +16,8 @@
 
 
 
+
+
 # darknet文件夹中文件说明：
 
 1. ./lza.sh为开机自启动脚本,需要加入/etc/rc.local中，功能是运行darknet中的Tony.sh
