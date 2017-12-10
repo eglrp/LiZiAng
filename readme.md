@@ -19,7 +19,7 @@
 
 1. ./lza.sh为开机自启动脚本,需要加入/etc/rc.local中，功能是运行darknet中的Tony.sh
 2. ./Tony.sh为主脚本，作用是执行./opencv进行拍照,执行./get_file_list.py和./runtestv2.sh进行识别,再传输到服务器上
-3. ./opencv为拍照程序，由1中的opencv.cpp生成，每个板子需要改变其中的命名，以区分不同板子拍摄的图
+3. ./opencv为拍照程序，由src4opencv中的opencv.cpp生成，每个板子需要改变其中的命名，以区分不同板子拍摄的图。当前./opencv中所有路径、命名参数在程序中写死，还未给出用户使用接口
 4. ./get_file_list.py读取指定目录下拍好的所有照片， ./runtestv2.sh调用模型对照片进行识别
 
    ​
