@@ -14,7 +14,7 @@
 2. 从OpenCV下载OpenCV最新版本，在Jetson TK1上对OpenCV进行cmake、make安装
 3. 将darknet文件夹放在home/ubuntu/路径下，并授权读写权限
 
-
+   ​
 
 # darknet文件夹中文件说明：
 
