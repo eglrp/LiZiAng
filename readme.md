@@ -2,10 +2,14 @@
 
 1. GPS文件夹中是GPS模块调试程序
 2. 修改/GPS/main.c中第38行，dev_name的值修改为GPS模块串口的绝对路径文件，如/dev/tty.usbmodem1421, 该文件可以通过在/dev目录下插拔USB串口线来对比找到
+3. 在/GPS 文件夹中使用 make 命令，得到gps_test程序，然后./gps_test即可运行, 显示如/GPS/processedGPS.jpg：
+
 ![Image text](https://raw.githubusercontent.com/yaoygTony/LiZiAng/master/GPS/processedGPS.jpg)
-3. 在/GPS 文件夹中使用 make 命令，得到gps_test程序，然后./gps_test即可运行, 显示如/GPS/processedGPS.jpg
-4. 为了方便地获得GPS模块的原始信息，在/dev文件夹下运行： screen 串口名称 ，如， screen tty.usbmodem1421 可以直接查看，显示如/GPS/rawGPS.jpg
+
+4. 为了方便地获得GPS模块的原始信息，在/dev文件夹下运行： screen 串口名称 ，如， screen tty.usbmodem1421 可以直接查看，显示如/GPS/rawGPS.jpg：
+
 ![Image text](https://raw.githubusercontent.com/yaoygTony/LiZiAng/master/GPS/rawGPS.jpg)
+
 
    ​
 
