@@ -28,8 +28,21 @@ int main (int argc, char **argv)
     int n=0;  
     GPRMC gprmc;  
     char buff[GPS_LEN];  
+
+
+
+
+
+
+    // 这里需要修改！改为板子上的串口名称！‘/dev/tty.usbmodem1421’是姚禹光Mac右侧USB端口连接GPS模块时的串口名称！
     char *dev_name="/dev/tty.usbmodem1421";  
-  
+    // 这里需要修改！改为板子上的串口名称！‘/dev/tty.usbmodem1421’是姚禹光Mac右侧USB端口连接GPS模块时的串口名称！
+    
+
+
+
+
+
     if((fd=open(dev_name,O_RDWR|O_NOCTTY|O_NDELAY))<0)  
     {  
             perror("Can't Open the ttyUSB0 Serial Port");  
