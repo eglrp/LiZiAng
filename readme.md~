@@ -42,7 +42,7 @@
 
 1. 在Jetson TK1启动前保证网络环境，保证可以连接到服务器上
 2. 将摄像头使用USB方式连接到Jetson TK1上
-3. 将GPS模块用USB方式连接到Jetson TK1上
+3. 将GPS模块用USB方式连接到Jetson TK1上（等待GPS接收到信息？）
 4. 开机
 
    ​

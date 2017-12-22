@@ -3,7 +3,8 @@ passwd='yaoyg'
 rm -rf /home/ubuntu/darknet/arguments_file.txt
 rm -rf /home/ubuntu/Pictures/prepared/*
 rm -rf /home/ubuntu/Pictures/predictions/*
-./opencv
+mkdir /home/ubuntu/Pictures/predictions
+./picture
 ./get_file_list.py
 ./runtestv2.sh
 /usr/bin/expect <<-EOF
